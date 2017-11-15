@@ -13,5 +13,5 @@ let randomNumber= Math.floor(Math.random() * 20) + 1;
 let randomInteger= Number.parseInt(randomNumber, 10);
  function randomUserID(min,max)
 {
-    return Math.floor(Math.random()*(randomInteger)+1);
+    return Math.floor(Math.random()*randomInteger)+1);
 }
