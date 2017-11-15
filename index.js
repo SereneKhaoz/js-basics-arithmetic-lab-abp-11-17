@@ -11,4 +11,7 @@ let newID = 1000000000+ oldID;
 let ageIsValid = Number.isInteger(currentAge);
 let randomNumber= Math.floor(Math.random() * 20) + 1;
 let randomInteger= Number.parseInt(randomNumber, 10);
-let randomUserID= randomInteger
+ function randomUserID(min,max)
+{
+    return Math.floor(Math.random()*(max-min+1)+min);
+}
